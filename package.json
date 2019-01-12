@@ -1,6 +1,6 @@
 {
   "name": "extra-gcpconfig",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get ready to use GCP Config from parameters and environment variables.",
   "main": "index.js",
   "preferGlobal": true,
@@ -35,5 +35,8 @@
   },
   "homepage": "https://github.com/nodef/extra-gcpconfig#readme",
   "author": "wolfram77@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
