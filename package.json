@@ -1,6 +1,6 @@
 {
   "name": "extra-gcpconfig",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Get ready to use GCP Config from parameters and environment variables.",
   "main": "index.js",
   "preferGlobal": true,

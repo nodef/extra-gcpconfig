@@ -29,8 +29,8 @@ function options(o, k, a, i) {
   if(e>=0) { v = k.substring(e+1); bool = () => boolean(v); str = () => v; k = k.substring(o, e); }
   var kc = _.camelCase(k); k = (k.startsWith('--')? '--'+kc:k);
   if(k==='--help') o.help = bool();
-  else if(k==='-kf' || k==='--keyFilename') o.keyFilename = str();
   else if(k==='-cf' || k==='--credentialsFile') o.keyFilename = str();
+  else if(k==='-kf' || k==='--keyFilename') o.keyFilename = str();
   else o.argv = a[i];
   return i+1;
 };
@@ -42,6 +42,7 @@ function options(o, k, a, i) {
 function gcpconfig(o) {
   var o = defaults(Object.assign({}, DEFAULTS, o));
   var i = Math.floor(65535*Math.random());
+  o.keyFilename = o.credentialsFile||o.keyFilename;
   var key = o.keyFilename? o.keyFilename.split(';'):null;
   o.keyFilename = key? key[i % key.length]:null;
   return o;
