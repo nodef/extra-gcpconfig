@@ -1,14 +1,14 @@
 {
   "name": "extra-gcpconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get ready to use GCP Config from parameters and environment variables.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "gcpconfig": "index.js"
+  },
   "scripts": {
     "test": "exit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodef/extra-gcpconfig.git"
   },
   "keywords": [
     "extra",
@@ -26,10 +26,14 @@
     "shell",
     "merferry"
   ],
-  "author": "wolfram77@gmail.com",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/extra-gcpconfig.git"
+  },
   "bugs": {
     "url": "https://github.com/nodef/extra-gcpconfig/issues"
   },
-  "homepage": "https://github.com/nodef/extra-gcpconfig#readme"
+  "homepage": "https://github.com/nodef/extra-gcpconfig#readme",
+  "author": "wolfram77@gmail.com",
+  "license": "MIT"
 }
