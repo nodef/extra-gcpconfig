@@ -1,6 +1,6 @@
 {
   "name": "extra-gcpconfig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get ready to use GCP Config from parameters and environment variables.",
   "main": "index.js",
   "preferGlobal": true,
@@ -37,6 +37,6 @@
   "author": "wolfram77@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "4.17"
   }
 }
