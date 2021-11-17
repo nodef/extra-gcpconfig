@@ -1,6 +1,6 @@
 {
   "name": "extra-gcpconfig",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get ready to use GCP Config from parameters and environment variables.",
   "main": "index.js",
   "preferGlobal": true,
@@ -23,8 +23,7 @@
     "cli",
     "command",
     "console",
-    "shell",
-    "merferry"
+    "shell"
   ],
   "repository": {
     "type": "git",

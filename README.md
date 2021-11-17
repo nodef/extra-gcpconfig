@@ -2,17 +2,21 @@ Get ready to use [GCP Config] from parameters and environment variables.
 > Do you want to:
 > - Have GCP Config loaded from environment variables?
 > - Get GCP Config from arguments?
+
+<br>
 <br>
 
 
-## setup
+## Setup
 
 1. Run `npm install -g extra-gcpconfig` in **console**.
 2. To install this as a package use `npm install extra-gcpconfig`.
+
+<br>
 <br>
 
 
-## console
+## Console
 
 ```bash
 gcpconfig
@@ -24,7 +28,8 @@ gcpconfig --keyFilename credentials.json
 ## credentials/config file can be JSON
 ```
 
-### reference
+
+### Reference
 
 ```bash
 gcpconfig [options]
@@ -38,10 +43,12 @@ gcpconfig [options]
 # Environment variables:
 $GOOGLE_APPLICATION_CREDENTIALS # set default GCP credentails file path
 ```
+
+<br>
 <br>
 
 
-## package
+## Package
 
 ```javascript
 const gcpconfig = require('extra-gcpconfig');
@@ -60,7 +67,8 @@ gcpconfig(o);
 // get GCP config from arguments
 ```
 
-### reference
+
+### Reference
 
 ```javascript
 const gcpconfig = require('extra-gcpconfig');
@@ -82,17 +90,21 @@ options = {
   keyFilename: null // set custom GCP credentails file path
 };
 ```
+
+<br>
 <br>
 
 
-## similar
+## Similar
 
 Do you need anything similar?
 > - [extra-googletranslate] can translate long text to target language.
 > - [extra-googletts] can generate speech from text.
 
-Suggestions are welcome. Please [create an issue]. 
-<br><br>
+Suggestions are welcome. Please [create an issue].
+
+<br>
+<br>
 
 
 [![nodef](https://i.imgur.com/eO4zcjv.jpg)](https://nodef.github.io)
