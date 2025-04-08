@@ -110,6 +110,8 @@ Suggestions are welcome. Please [create an issue].
 [![nodef](https://i.imgur.com/eO4zcjv.jpg)](https://nodef.github.io)
 > References: [GCP Config].
 
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/extra-gcpconfig)
+
 [GCP Config]: https://cloud.google.com/docs/authentication/production
 [extra-googletranslate]: https://www.npmjs.com/package/extra-googletranslate
 [extra-googletts]: https://www.npmjs.com/package/extra-googletts
