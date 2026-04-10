@@ -36,6 +36,6 @@
   "author": "wolfram77@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17"
+    "lodash": "4.18"
   }
 }
